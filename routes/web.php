@@ -1,13 +1,16 @@
 <?php
 
+/*OneToOne*/
 $this->get('one-to-one','OneToOneController@oneToOne');
 
 $this->get('one-to-one-inv','OneToOneController@oneToOneInv');
 
 $this->get('one-to-one-insert','OneToOneController@oneToOneInsert');
 
+/*OneToMany*/
 $this->get('one-to-many','OneToManyController@oneToMany');
 
+/*ManyToOne*/
 $this->get('many-to-one','OneToManyController@ManyToOne');
 
 $this->get('one-to-many-two','OneToManyController@oneToManyTwo');
