@@ -28,6 +28,7 @@ $this->get('many-to-many-insert','ManyToManyController@ManyToManyInsert');
 
 /*Rolation Polymorphic*/
 $this->get('polymorphics','PolymorphicController@polymorphic');
+
 $this->get('polymorphics-insert','PolymorphicController@polymorphicInsert');
 
 Route::get('/', function () {
